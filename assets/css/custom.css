@@ -4,15 +4,19 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-background:#24292e;
+  background:#24292e;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-background: #888;
+  background: #888;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-background: #555;
+  background: #555;
+}
+
+img {
+  pointer-events: none;
 }
