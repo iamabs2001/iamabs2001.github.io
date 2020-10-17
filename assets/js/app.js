@@ -8,6 +8,7 @@ function doShare() {
     }
 }
 
+setTimeout(() => {
 Notification.requestPermission().then(function(result) {
     if (Notification.permission == 'granted' || result === 'granted') {
         var firstTime = localStorage.getItem("firsttime");
@@ -31,6 +32,7 @@ Notification.requestPermission().then(function(result) {
         });
     }
 });
+}, 20000);
 
 
 if(!navigator.canShare) {
