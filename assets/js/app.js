@@ -7,3 +7,7 @@ function doShare() {
         });
     }
 }
+
+if(!navigator.canShare) {
+    document.getElementById("share-btn").style.display = "none";
+}
