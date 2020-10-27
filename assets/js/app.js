@@ -1,3 +1,6 @@
+// initial console warning
+console.log('%c😢 Stop it, 😇 Please forgive my site','color:yellow;font-size:50px;');
+
 function doShare() {
     if (navigator.canShare) {
         navigator.share({
