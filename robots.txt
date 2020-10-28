@@ -1,0 +1,10 @@
+User-agent: AdsBot-Google
+User-agent: Googlebot-Image
+User-agent: Googlebot-news
+User-agent: *
+Allow: /*
+Allow: /
+
+sitemap: https://iamabs2001.github.io/sitemap.xml
+sitemap: https://iamabs.netlify.app/sitemap.xml
+sitemap: https://iamabs2001.netlify.app/sitemap.xml

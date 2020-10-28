@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+  
+    <url><loc>https://iamabs2001.github.io</loc></url>
+    <url><loc>https://iamabs2001.netlify.app</loc></url>
+    <url><loc>https://iamabs.netlify.app</loc></url>
+    <url><loc>https://monolocator.netlify.app</loc></url>
+    <url><loc>https://playbooks.netlify.app</loc></url>
+    <url><loc>https://facebook.com/iamabs2001</loc></url>
+    <url><loc>https://twitter.com/iamabs2001</loc></url>
+    <url><loc>https://github.com/iamabs2001</loc></url>
+
+    <url><loc>https://iamabs2001.github.io/assets/img/abhijeet.png</loc>
+    <image:image>
+        <image:loc>https://iamabs2001.github.io/assets/img/abhijeet.png</image:loc>
+    </image:image>
+    </url> 
+
+</urlset>
