@@ -36,7 +36,7 @@ workbox.routing.registerRoute(
 );
 workbox.precaching.precacheAndRoute([
     '/assets/css/primer.css',
-    '/assets/css/styles.css',
+    '/assets/css/custom.css',
 	{
 		url: 'index.html',
 		revision: '383676'

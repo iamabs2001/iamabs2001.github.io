@@ -30,3 +30,11 @@ body {
   -ms-user-select: none;      
   user-select: none;
 }
+
+.github-component {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol !important
+}
+
+.min-height-full {
+  min-height: 100vh;
+}
