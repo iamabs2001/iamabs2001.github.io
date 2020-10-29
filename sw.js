@@ -35,7 +35,7 @@ workbox.routing.registerRoute(
 	})
 );
 workbox.precaching.precacheAndRoute([
-    '/assets/css/primer.css',
+    '/assets/css/primer.used.css',
     '/assets/css/custom.css',
 	{
 		url: 'index.html',
