@@ -1,5 +1,6 @@
-// initial console warning
-console.log('%c😢 Stop it, 😇 Please forgive my site','color:yellow;font-size:50px;');
+if(!navigator.canShare) {
+    document.getElementById("share-btn").style.display = "none";
+}
 
 function doShare() {
     if (navigator.canShare) {
@@ -37,7 +38,5 @@ Notification.requestPermission().then(function(result) {
 });
 }, 20000);
 
-
-if(!navigator.canShare) {
-    document.getElementById("share-btn").style.display = "none";
-}
+// initial console warning
+console.log('%c😢 Stop it, 😇 Please forgive my site','color:yellow;font-size:50px;');
