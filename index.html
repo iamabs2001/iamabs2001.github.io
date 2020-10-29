@@ -81,19 +81,21 @@
 <body>
 <div class="d-md-flex min-height-full">
     
-    <!-- Profile -->
+    <!-- Left Side Pane -->
     <div class="flex-self-stretch bg-gray-dark col-md-5 col-lg-4 col-xl-3 px-4 px-md-6 px-lg-7 py-6 text-center">
+        <!-- Profile Card -->
         <div class="bg-white rounded-2"> 
             <img loading="lazy" alt="Profile" width="100%" height="100%" src="./assets/img/abhijeet.jpg" class="mb-2 tooltipped tooltipped-n" aria-label="Profile Picture" style="width: 100%; border-top-left-radius: 6px; border-top-right-radius: 6px;">
             <h2 class="mb-1 lh-condensed text-center"> Abhijeet Sharma </h2>
             <h5 class="mb-1 text-gray-dark text-center"> Web & Software Engineer </h5>
             <h5 class="mb-1 text-gray-dark text-center"> Mumbai, India 400061. </h5>
-            <h5 class="mb-2 text-gray text-center"><a rel="noopener" href="tel:9004869069"> +91 9004869069 </a></h5> <hr>
+            <h5 class="mb-2 text-gray text-center"><a rel="noopener" href="tel:+919004869069"> +91 9004869069 </a></h5> <hr>
             <button onclick="installPWA();" class="btn btn-primary mr-1 mb-3 tooltipped tooltipped-n" aria-label=" Install This On Your Device "> Install </button>
             <a href="https://twitter.com/iamabs2001" rel="noopener" target="_blank" class="btn btn-blue mb-3 mr-1 tooltipped tooltipped-n" aria-label=" Twitter Profile "> Twitter </a>
             <a onclick="doShare();" id="share-btn" rel="noopener"><img src="./assets//img/share.svg" height="25dp" width="25dp" alt="Share"></a>
         </div>
 
+        <!-- Contacts -->
         <div class="bg-white rounded-2 mt-3 mb-3 p-2"> 
             <p class="btn btn-purple btn-block"> Contact </p>
             <div>
@@ -107,6 +109,7 @@
             </div>
         </div>
 
+        <!-- Portfolio Links -->
         <div class="bg-white rounded-2 mt-2 mb-2 p-2"> 
             <p class="btn btn-blue btn-block"> Checkout </p>
             <a class="avtar btn mr-1" href="https://play.google.com/store/apps/dev?id=5392459675676520612" target="_blank" rel="noopener"> <img class="avatar" height="40" alt="Play Store" src="./assets/img/play-store.svg" width="40"> </a>
@@ -115,9 +118,18 @@
         </div>
     </div>
 
-    <!-- Technical Skills -->
-
+    <!-- Right Side Pane -->
     <div class="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0 bg-gray-light" style="background-color: #2f363d !important">
+    <!-- Professional Summary -->
+    <div class="mx-auto mb-4" style="max-width: 900px;">
+        <p class="text-white f2"> Professional Summary </p>
+        <p class="f3 rounded-2" align="justify" style="color:#e1e4e8; border:1px solid grey; padding: 10px;"> 
+            3+ Year experience as free lancer & Open source Engineer. 
+            Highly skilled with Java & Javascript Technology and Angular, Spring framework.
+            Have excellence of software planning, designing, development & operational skills. 
+        </p>
+    </div>
+        <!-- Technical Skills -->
         <div class="mx-auto" style="max-width: 900px;">
             <p class="text-white f2"> Technical Skills </p>
             <p class="f3 mb-4" style="color:#e1e4e8"> I use these techonology </p>
@@ -210,8 +222,9 @@
             </div>
         </div>
     </div>
-
+<!-- Right Side Pane Close -->
 </div>    
+<!-- Body close -->
 <script async defer src="./assets/js/app.js"></script>
 </body>
 </html>
